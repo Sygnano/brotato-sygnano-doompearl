@@ -1,0 +1,33 @@
+{
+  "name": "DoomPearl",
+  "namespace": "Sygnano",
+  "version_number": "1.1.1",
+  "description": "Adds the Doom Pearl item: each Doom Pearl grants an extra shop ban token.",
+  "website_url": "null",
+  "dependencies": [],
+  "extra": {
+    "godot": {
+      "authors": [
+        "Sygnano"
+      ],
+      "tags": [
+        "item",
+        "ban",
+        "doom",
+        "pearl"
+      ],
+      "description_rich": "",
+      "optional_dependencies": [],
+      "load_before": [],
+      "incompatibilities": [],
+      "compatible_mod_loader_version": [
+        "6.3.0"
+      ],
+      "compatible_game_version": [
+        "1.2.0.0",
+        "1.2.0.1"
+      ],
+      "config_schema": {}
+    }
+  }
+}

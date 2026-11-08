@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://global/item_set_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/Sygnano-DoomPearl/extensions/items/all/doom_pearl/doom_pearl_data.tres" type="Resource" id=2]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "sygnano_doom_pearl_set"
+items = [ ExtResource( 2 ) ]
+weapons = [  ]
+stats = [  ]
+characters = [  ]
+challenges = [  ]

@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+files=[ "res://mods-unpacked/Sygnano-DoomPearl/translations/item_doom_pearl.en.translation" ]
+
+source_file="res://mods-unpacked/Sygnano-DoomPearl/translations/item_doom_pearl.csv"
+dest_files=[ "res://mods-unpacked/Sygnano-DoomPearl/translations/item_doom_pearl.en.translation" ]
+
+[params]
+
+compress=true
+delimiter=0

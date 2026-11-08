@@ -1,0 +1,28 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://items/global/item_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/Sygnano-DoomPearl/extensions/items/all/doom_pearl/appeareances/doom_pearl_app_0.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/Sygnano-DoomPearl/extensions/items/all/doom_pearl/effects/doom_pearl_effect_0.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/Sygnano-DoomPearl/extensions/items/all/doom_pearl/doom_pearl_icon.png" type="Texture" id=4]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "item_doom_pearl"
+unlocked_by_default = true
+can_be_looted = true
+icon = ExtResource( 4 )
+name = "ITEM_DOOM_PEARL"
+tier = 1
+value = 60
+effects = [ ExtResource( 3 ) ]
+tracking_text = ""
+is_lockable = true
+unlock_codex_descr_after_get_it = 1
+is_cursed = false
+curse_factor = 0.0
+is_meca = false
+is_mutant = false
+max_nb = -1
+item_appearances = [ ExtResource( 2 ) ]
+tags = [  ]
+minimum_difficulty = 0
